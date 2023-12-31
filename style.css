@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.NavBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+    height: 160px;
+    transform: all 0.7s ease-out;
+    
+}
+.NavList{
+width: 50%;
+
+color: white;
+display: flex;
+
+}
+
+.Background {
+    background-image: url('Backgroud\ picture.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.area{
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 25px;
+    width: 170px
+}
+.button{
+    height: 25px;
+}
+
+.logo{
+    /* border: 2px solid red; */
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo img{
+     border: 2px solid black; 
+     width: 50%;
+     border-radius: 50%;
+}
+.NavList li{
+    list-style: none;
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+    padding: 5%;
+    color: white;
+    margin: 3px;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.NavList li a{
+    text-decoration: none;
+    color: white;
+}
+.NavList li a:hover{
+    text-decoration: none;
+    color: grey;
+
+}
+.Rightnav{
+    width: 50%;
+    text-align: center;
+     /* background-color: black; */
+     padding: 5%;
+}
+.burger{
+  position: absolute;
+  cursor: pointer;
+  right: 5%;
+  top: 15px;
+  display: block;
+}
+.h-nav-resp{
+    height: 72px;
+}
+.v-class-resp{
+    opacity: 0;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+.button{
+    border:2px solid black;
+    border-radius: 15%;
+    width: 20%;
+}
+.Background-section{
+ background-image: url('background\ pic.jpeg');
+}
+.SearchArea{
+    border: 3px solid yellow;
+}
+.Firsthalf p{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.firstsection{
+    height: 90vh;
+    padding-top: 100px;
+}
+.Firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+    /* height : 75%; */
+}
+.Secondhalf{
+width: 30px;
+padding: 18px;
+
+}
+.Boxmain{
+    display: flex;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 60%;
+    margin: auto;
+    justify-content: center;
+    height: 50%;
+}
+.Big-text{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+}
+.Small-text{
+ line-height:1.6;
+    font-size:18px;
+    padding:15px;
+    margin-right: 30px;
+}
+
+.Secondhalf img{
+    width:250px;
+    display: block;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 150%;
+}
+.btn{
+    width:75px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background:none;
+    color:white;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+.btn-2{
+    width:75px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background:none;
+    justify-content: center;
+    text-align:center;
+    color: white;
+    cursor: pointer;
+} 
+.Buttons{
+    padding: 8px 20px;
+    margin:8px 5px;
+}
+.section{
+    height: 400px;
+}
+.Sub-section1{
+    display: flex;
+    height: 500px;
+    justify-content: space-evenly;
+     /* text-align: center;  */
+    margin: auto;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:1.6;
+    max-width: 82%;
+    padding: 15px;
+}
+.Sub-section1 p{
+    color: black;
+    margin: auto;
+    }
+    
+.Thumbnail img{
+    width: 320px;
+    /* margin:20px ; */
+    top:0%;
+    margin-left: 20px;
+    border: 2px solid black;
+    border-radius: 20;
+    margin-top: 30px;
+} 
+.Heading{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}   
+.paras{
+    padding: 0px 85px;
+    margin: 0px 0px 0px 100px;
+}   
+.Left-section{
+    flex-direction: row;
+    margin: 0% 0% 0% 10%;
+}
+.sectionsubtag{
+    font-size: 20px;
+    line-height: 140%;
+    padding: 12px 2px 3px 4px;
+}
+
+.boss{
+    width:300px;
+}
+.contact{
+    background-color:cornsilk;
+    height: 55vh;
+}
+.centertext{
+    text-align: center;
+    padding: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    background:none;
+}
+.form{
+    max-width:300px;
+    margin: 22px 0px ;
+}
+.nametype{
+    font-size: 20px;
+    width: 500px;
+    padding: 3px;
+    border: 2px solid black;
+    border-radius: 6px;
+    /* text-align: center; */
+}
+.phonetype{
+    font-size: 20px;
+    /* text-align: center; */
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 3px;
+    margin: 17px;
+}
+.emailtype{
+    font-size: 20px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 5px;
+    /* text-align: center; */
+    padding: 3px;
+}
+.btn{
+    background-color: white;
+    border: 2px black solid;
+    color: grey;
+    margin-right: 50px;
+    padding:10px;
+    margin-top: 22px;
+}
+.textarea-class{
+    font-size: 20px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 5px;
+    /* text-align: center; */
+    padding: 3px;
+}
+.text-footer {
+    text-align: center;
+    justify-content: center;
+    padding: 20px 0px;
+    color: white;
+}
