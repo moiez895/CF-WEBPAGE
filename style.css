@@ -23,8 +23,8 @@ display: flex;
 }
 
 .Background {
-    background-image: url('Backgroud\ picture.jpeg');
-    background-size: cover;
+    background-image: url('bg2.webp');
+    background-size:cover;
     background-blend-mode: darken;
     display: flex;
     justify-content: space-between;
@@ -104,8 +104,9 @@ display: flex;
     border-radius: 15%;
     width: 20%;
 }
-.Background-section{
- background-image: url('background\ pic.jpeg');
+.Background-section {
+    background-image: url('bg2.webp');
+    background-size: cover;
 }
 .SearchArea{
     border: 3px solid yellow;
@@ -185,11 +186,11 @@ padding: 18px;
 }
 .Sub-section1{
     display: flex;
-    height: 500px;
+    /* height: 500px; */
     justify-content: space-evenly;
      /* text-align: center;  */
     margin: auto;
-    margin: 15px;
+    margin: 75px auto;
     font-family: Arial, Helvetica, sans-serif;
     line-height:1.6;
     max-width: 82%;
@@ -213,10 +214,22 @@ padding: 18px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 35px;
 }   
-.paras{
+/* .paras{
     padding: 0px 85px;
     margin: 0px 0px 0px 100px;
-}   
+}  */
+.paras {
+    padding: 0px 85px;
+    margin: 0 auto;
+    width: 70%;
+    text-align: justify;
+}  
+
+.Thumbnail {
+    width: 30%;
+    padding: 0px 85px;
+    margin: 0 auto;
+}
 .Left-section{
     flex-direction: row;
     margin: 0% 0% 0% 10%;
@@ -270,14 +283,25 @@ padding: 18px;
     /* text-align: center; */
     padding: 3px;
 }
-.btn{
+/* .btn{
     background-color: white;
     border: 2px black solid;
     color: grey;
     margin-right: 50px;
     padding:10px;
     margin-top: 22px;
+} */
+
+.btn {
+    background-color: orange;
+    border: 2px orange solid;
+    color: white;
+    margin-right: 50px;
+    padding: 10px;
+    margin-top: 22px;
+    width: 150px;
 }
+
 .textarea-class{
     font-size: 20px;
     width: 500px;
@@ -294,8 +318,9 @@ padding: 18px;
     color: white;
 }
 .fa-instagram{
-    margin: 25px 30px;
-    padding-left: 505px;
+    margin: 30px 30px;
+    padding-left: 665px;
+    margin: bottom 0px;;
     justify-content: center;
    font-size: 25px;
     cursor: pointer;
