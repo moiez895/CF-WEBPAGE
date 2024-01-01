@@ -293,3 +293,24 @@ padding: 18px;
     padding: 20px 0px;
     color: white;
 }
+.fa-instagram{
+    margin: 25px 30px;
+    padding-left: 505px;
+    justify-content: center;
+   font-size: 25px;
+    cursor: pointer;
+}
+.fa-facebook{
+    margin: 20px 30px;
+    
+    justify-content: center;
+   font-size: 25px;
+    cursor: pointer;
+}
+.fa-twitter{
+    margin: 20px 30px;
+    
+    justify-content: center;
+   font-size: 25px;
+    cursor: pointer;
+}
